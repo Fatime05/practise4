@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-image: url("https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+
+}
+.btn{
+    width: 127px;
+    height: 40px;
+    background-color: #928ceb;
+    font-family: Mukta, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight:400;
+    font-size: 14px;
+    border: none;
+    color: white;
+    transition: 0.4s;
+    
+}
+.btn:hover{
+    background-color: #7971EA;
+    box-shadow: 3px 4px 30px 4px gray;
+    
+}
+.text h1{
+    font-size: 50px;
+    font-family: Mukta, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 900;
+    color: #000000;
+}
+.text p{
+    font-family: Mukta, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 300;
+    font-size: 20px;
+    color: #333333;
+}

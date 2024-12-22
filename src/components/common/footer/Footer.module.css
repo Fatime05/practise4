@@ -1,0 +1,11 @@
+.container p{
+    color: #8c92a0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+}
